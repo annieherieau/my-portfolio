@@ -31,7 +31,6 @@ export default function WorkList({ filter }) {
       .catch((err) => console.error(err));
   }, [filter]);
 
-  console.log(works);
   return (
     <section className="WorkList">
       {works &&

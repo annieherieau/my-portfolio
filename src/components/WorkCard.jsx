@@ -13,7 +13,7 @@ export default function WorkCard(props) {
 
   console.log(props.workdata.cover);
   return (
-    <Card className="card mb-3">
+    <Card>
       <div className="row g-0">
         <div className="col-md-4">
           <CardCover imgData={cover.data} />
