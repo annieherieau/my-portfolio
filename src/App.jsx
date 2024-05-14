@@ -34,7 +34,7 @@ export default function App() {
           <Route path="/my-portfolio#contact" />
           <Route path="/my-portfolio/curriculum" element={<Curriculum theme={theme}/>} />
 
-          <Route path="/my-portfolio/projects/:workSlug" element={<WorkPage theme={theme}/>} />
+          <Route path="/my-portfolio/:workSlug" element={<WorkPage theme={theme}/>} />
         </Routes>
         <Footer theme={theme} />
       </DarkModeContext.Provider>
