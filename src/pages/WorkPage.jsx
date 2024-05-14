@@ -1,6 +1,5 @@
 import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
-import data from "../data/works.json";
 import { useLocation } from "react-router-dom";
 
 export default function WorkPage() {
