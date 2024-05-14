@@ -6,7 +6,7 @@
 				"title": "RAYMote IT",
 				"slug": "raymote-it",
 				"createdAt": "2024-05-10T15:18:12.252Z",
-				"updatedAt": "2024-05-14T12:52:44.343Z",
+				"updatedAt": "2024-05-14T16:44:15.708Z",
 				"publishedAt": "2024-05-14T12:24:14.893Z",
 				"date": "2024-04-03",
 				"description": "Plateforme de e-learning innovante dédiée à l’informatique et à la technologie. Projet fullstack en équipe présenté en jury de le formation THP.",
@@ -36,8 +36,8 @@
 							"description": "description The Hacking Project",
 							"url": "https://www.thehackingproject.org/",
 							"createdAt": "2024-05-10T13:32:04.616Z",
-							"updatedAt": "2024-05-10T14:13:47.968Z",
-							"publishedAt": "2024-05-13T16:28:42.218Z"
+							"updatedAt": "2024-05-14T17:22:14.075Z",
+							"publishedAt": "2024-05-14T17:22:23.582Z"
 						}
 					}
 				},
@@ -109,7 +109,7 @@
 							"provider": "local",
 							"provider_metadata": null,
 							"createdAt": "2024-05-14T12:22:51.720Z",
-							"updatedAt": "2024-05-14T12:52:39.652Z"
+							"updatedAt": "2024-05-14T16:43:48.961Z"
 						}
 					}
 				},
@@ -123,8 +123,8 @@
 							"attributes": {
 								"name": "Ruby",
 								"createdAt": "2024-05-13T08:50:01.353Z",
-								"updatedAt": "2024-05-13T08:50:06.811Z",
-								"publishedAt": "2024-05-13T16:28:33.003Z",
+								"updatedAt": "2024-05-14T17:07:09.000Z",
+								"publishedAt": "2024-05-14T17:07:08.998Z",
 								"slug": "ruby"
 							}
 						},
@@ -133,8 +133,8 @@
 							"attributes": {
 								"name": "Ruby on Rails",
 								"createdAt": "2024-05-13T08:51:33.908Z",
-								"updatedAt": "2024-05-13T08:51:37.818Z",
-								"publishedAt": "2024-05-13T16:28:33.003Z",
+								"updatedAt": "2024-05-14T17:07:20.051Z",
+								"publishedAt": "2024-05-14T17:07:20.050Z",
 								"slug": "ruby-on-rails"
 							}
 						},
@@ -143,8 +143,8 @@
 							"attributes": {
 								"name": "PostgreSQL",
 								"createdAt": "2024-05-13T08:54:10.784Z",
-								"updatedAt": "2024-05-13T08:54:20.163Z",
-								"publishedAt": "2024-05-13T16:28:33.003Z",
+								"updatedAt": "2024-05-14T17:06:57.141Z",
+								"publishedAt": "2024-05-14T17:06:57.140Z",
 								"slug": "postgre-sql"
 							}
 						},
@@ -153,8 +153,8 @@
 							"attributes": {
 								"name": "Bootstrap",
 								"createdAt": "2024-05-13T08:55:34.877Z",
-								"updatedAt": "2024-05-13T08:55:36.130Z",
-								"publishedAt": "2024-05-13T16:28:33.003Z",
+								"updatedAt": "2024-05-14T17:06:10.700Z",
+								"publishedAt": "2024-05-14T17:06:21.891Z",
 								"slug": "bootstrap"
 							}
 						}
@@ -169,7 +169,7 @@
 								"slug": "figma",
 								"createdAt": "2024-05-13T09:16:09.386Z",
 								"updatedAt": "2024-05-13T09:16:10.102Z",
-								"publishedAt": "2024-05-13T16:28:22.746Z"
+								"publishedAt": "2024-05-14T17:13:52.947Z"
 							}
 						},
 						{
@@ -178,8 +178,8 @@
 								"name": "Git",
 								"slug": "git",
 								"createdAt": "2024-05-13T09:18:27.474Z",
-								"updatedAt": "2024-05-13T09:18:28.702Z",
-								"publishedAt": "2024-05-13T16:28:22.746Z"
+								"updatedAt": "2024-05-14T17:13:22.427Z",
+								"publishedAt": "2024-05-14T17:13:52.947Z"
 							}
 						},
 						{
@@ -189,7 +189,7 @@
 								"slug": "github",
 								"createdAt": "2024-05-13T09:15:49.248Z",
 								"updatedAt": "2024-05-13T09:15:50.871Z",
-								"publishedAt": "2024-05-13T16:28:22.746Z"
+								"publishedAt": "2024-05-14T17:13:52.947Z"
 							}
 						},
 						{
@@ -199,10 +199,716 @@
 								"slug": "trello",
 								"createdAt": "2024-05-13T09:11:44.208Z",
 								"updatedAt": "2024-05-13T09:15:04.544Z",
-								"publishedAt": "2024-05-13T16:28:22.746Z"
+								"publishedAt": "2024-05-14T17:13:52.947Z"
 							}
 						}
 					]
+				}
+			}
+		},
+		{
+			"id": 3,
+			"attributes": {
+				"title": "Jeu du morpion",
+				"slug": "jeu-du-morpion",
+				"createdAt": "2024-05-13T09:39:02.029Z",
+				"updatedAt": "2024-05-14T16:51:11.687Z",
+				"publishedAt": "2024-05-14T16:51:11.686Z",
+				"date": "2024-02-02",
+				"description": "Mise en pratique du langage Ruby.",
+				"github": "https://github.com/annieherieau/thp_morpion_game",
+				"content": "## Présentation\nJeu du morpion (tic-tac-toe) exécuté dans le terminal.\n\n## Fonctionnalités\n- Demande du nom des joueurs\n- Lancement de la partie\n- Possibilité de rejouer\n- Fin de partie: affichage du tableau des scores (victoires / défaites)",
+				"url": null,
+				"category": {
+					"data": {
+						"id": 1,
+						"attributes": {
+							"name": "exercices",
+							"slug": "exercices",
+							"title": "Exercices",
+							"description": "description Exercices pratiques. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+							"createdAt": "2024-05-10T13:42:28.725Z",
+							"updatedAt": "2024-05-13T16:27:43.434Z",
+							"publishedAt": "2024-05-13T16:28:50.101Z"
+						}
+					}
+				},
+				"client": {
+					"data": {
+						"id": 3,
+						"attributes": {
+							"name": "The Hacking Project",
+							"slug": "the-hacking-project",
+							"description": "description The Hacking Project",
+							"url": "https://www.thehackingproject.org/",
+							"createdAt": "2024-05-10T13:32:04.616Z",
+							"updatedAt": "2024-05-14T17:22:14.075Z",
+							"publishedAt": "2024-05-14T17:22:23.582Z"
+						}
+					}
+				},
+				"cover": {
+					"data": {
+						"id": 37,
+						"attributes": {
+							"name": "jeu-du-morpion.png",
+							"alternativeText": "jeu-du-morpion-cover",
+							"caption": null,
+							"width": 1136,
+							"height": 794,
+							"formats": {
+								"thumbnail": {
+									"name": "thumbnail_jeu-du-morpion.png",
+									"hash": "thumbnail_jeu_du_morpion_c6323d3500",
+									"ext": ".png",
+									"mime": "image/png",
+									"path": null,
+									"width": 223,
+									"height": 156,
+									"size": 10.51,
+									"sizeInBytes": 10508,
+									"url": "/uploads/thumbnail_jeu_du_morpion_c6323d3500.png"
+								},
+								"medium": {
+									"name": "medium_jeu-du-morpion.png",
+									"hash": "medium_jeu_du_morpion_c6323d3500",
+									"ext": ".png",
+									"mime": "image/png",
+									"path": null,
+									"width": 750,
+									"height": 524,
+									"size": 56.32,
+									"sizeInBytes": 56322,
+									"url": "/uploads/medium_jeu_du_morpion_c6323d3500.png"
+								},
+								"small": {
+									"name": "small_jeu-du-morpion.png",
+									"hash": "small_jeu_du_morpion_c6323d3500",
+									"ext": ".png",
+									"mime": "image/png",
+									"path": null,
+									"width": 500,
+									"height": 349,
+									"size": 33.05,
+									"sizeInBytes": 33047,
+									"url": "/uploads/small_jeu_du_morpion_c6323d3500.png"
+								},
+								"large": {
+									"name": "large_jeu-du-morpion.png",
+									"hash": "large_jeu_du_morpion_c6323d3500",
+									"ext": ".png",
+									"mime": "image/png",
+									"path": null,
+									"width": 1000,
+									"height": 699,
+									"size": 79.21,
+									"sizeInBytes": 79213,
+									"url": "/uploads/large_jeu_du_morpion_c6323d3500.png"
+								}
+							},
+							"hash": "jeu_du_morpion_c6323d3500",
+							"ext": ".png",
+							"mime": "image/png",
+							"size": 9.8,
+							"url": "/uploads/jeu_du_morpion_c6323d3500.png",
+							"previewUrl": null,
+							"provider": "local",
+							"provider_metadata": null,
+							"createdAt": "2024-05-14T16:32:39.053Z",
+							"updatedAt": "2024-05-14T16:51:03.859Z"
+						}
+					}
+				},
+				"media": {
+					"data": null
+				},
+				"stacks": {
+					"data": [
+						{
+							"id": 6,
+							"attributes": {
+								"name": "Ruby",
+								"createdAt": "2024-05-13T08:50:01.353Z",
+								"updatedAt": "2024-05-14T17:07:09.000Z",
+								"publishedAt": "2024-05-14T17:07:08.998Z",
+								"slug": "ruby"
+							}
+						}
+					]
+				},
+				"tools": {
+					"data": [
+						{
+							"id": 5,
+							"attributes": {
+								"name": "Terminal",
+								"slug": "terminal",
+								"createdAt": "2024-05-13T09:17:07.216Z",
+								"updatedAt": "2024-05-14T17:13:32.928Z",
+								"publishedAt": "2024-05-14T17:13:52.947Z"
+							}
+						}
+					]
+				}
+			}
+		},
+		{
+			"id": 4,
+			"attributes": {
+				"title": "Email Viewer",
+				"slug": "email-viewer",
+				"createdAt": "2024-05-13T09:45:54.124Z",
+				"updatedAt": "2024-05-14T16:23:07.382Z",
+				"publishedAt": "2024-05-14T16:23:07.380Z",
+				"date": "2024-03-11",
+				"description": "Application Single page de consultation des emails",
+				"github": "https://github.com/annieherieau/thp_email_viewer",
+				"content": "Email Viewer est une application d'une seule page:\n\n- Une colonne affichant la liste des faux emails dans la boîte aux lettres\n- Une colonne affichant le contenu de l'email en cours de lecture\n- Un bouton pour simuler l'arrivée de nouveaux messges",
+				"url": "https://thp-email-viewer.fly.dev/",
+				"category": {
+					"data": {
+						"id": 3,
+						"attributes": {
+							"name": "cases",
+							"slug": "cases",
+							"title": "Etudes de Cas",
+							"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+							"createdAt": "2024-05-10T14:26:52.960Z",
+							"updatedAt": "2024-05-13T16:27:36.538Z",
+							"publishedAt": "2024-05-13T16:28:50.101Z"
+						}
+					}
+				},
+				"client": {
+					"data": {
+						"id": 3,
+						"attributes": {
+							"name": "The Hacking Project",
+							"slug": "the-hacking-project",
+							"description": "description The Hacking Project",
+							"url": "https://www.thehackingproject.org/",
+							"createdAt": "2024-05-10T13:32:04.616Z",
+							"updatedAt": "2024-05-14T17:22:14.075Z",
+							"publishedAt": "2024-05-14T17:22:23.582Z"
+						}
+					}
+				},
+				"cover": {
+					"data": {
+						"id": 36,
+						"attributes": {
+							"name": "email-viewer.png",
+							"alternativeText": "email-viewer-cover",
+							"caption": null,
+							"width": 2028,
+							"height": 1708,
+							"formats": {
+								"thumbnail": {
+									"name": "thumbnail_email-viewer.png",
+									"hash": "thumbnail_email_viewer_3a7ce9f850",
+									"ext": ".png",
+									"mime": "image/png",
+									"path": null,
+									"width": 185,
+									"height": 156,
+									"size": 16.16,
+									"sizeInBytes": 16158,
+									"url": "/uploads/thumbnail_email_viewer_3a7ce9f850.png"
+								},
+								"small": {
+									"name": "small_email-viewer.png",
+									"hash": "small_email_viewer_3a7ce9f850",
+									"ext": ".png",
+									"mime": "image/png",
+									"path": null,
+									"width": 500,
+									"height": 421,
+									"size": 65.53,
+									"sizeInBytes": 65526,
+									"url": "/uploads/small_email_viewer_3a7ce9f850.png"
+								},
+								"medium": {
+									"name": "medium_email-viewer.png",
+									"hash": "medium_email_viewer_3a7ce9f850",
+									"ext": ".png",
+									"mime": "image/png",
+									"path": null,
+									"width": 750,
+									"height": 632,
+									"size": 114.47,
+									"sizeInBytes": 114467,
+									"url": "/uploads/medium_email_viewer_3a7ce9f850.png"
+								},
+								"large": {
+									"name": "large_email-viewer.png",
+									"hash": "large_email_viewer_3a7ce9f850",
+									"ext": ".png",
+									"mime": "image/png",
+									"path": null,
+									"width": 1000,
+									"height": 842,
+									"size": 172.1,
+									"sizeInBytes": 172104,
+									"url": "/uploads/large_email_viewer_3a7ce9f850.png"
+								}
+							},
+							"hash": "email_viewer_3a7ce9f850",
+							"ext": ".png",
+							"mime": "image/png",
+							"size": 60.7,
+							"url": "/uploads/email_viewer_3a7ce9f850.png",
+							"previewUrl": null,
+							"provider": "local",
+							"provider_metadata": null,
+							"createdAt": "2024-05-14T16:22:53.149Z",
+							"updatedAt": "2024-05-14T16:22:53.149Z"
+						}
+					}
+				},
+				"media": {
+					"data": null
+				},
+				"stacks": {
+					"data": [
+						{
+							"id": 6,
+							"attributes": {
+								"name": "Ruby",
+								"createdAt": "2024-05-13T08:50:01.353Z",
+								"updatedAt": "2024-05-14T17:07:09.000Z",
+								"publishedAt": "2024-05-14T17:07:08.998Z",
+								"slug": "ruby"
+							}
+						},
+						{
+							"id": 7,
+							"attributes": {
+								"name": "Ruby on Rails",
+								"createdAt": "2024-05-13T08:51:33.908Z",
+								"updatedAt": "2024-05-14T17:07:20.051Z",
+								"publishedAt": "2024-05-14T17:07:20.050Z",
+								"slug": "ruby-on-rails"
+							}
+						},
+						{
+							"id": 9,
+							"attributes": {
+								"name": "Bootstrap",
+								"createdAt": "2024-05-13T08:55:34.877Z",
+								"updatedAt": "2024-05-14T17:06:10.700Z",
+								"publishedAt": "2024-05-14T17:06:21.891Z",
+								"slug": "bootstrap"
+							}
+						}
+					]
+				},
+				"tools": {
+					"data": []
+				}
+			}
+		},
+		{
+			"id": 6,
+			"attributes": {
+				"title": "Bloc Notes",
+				"slug": "bloc-notes",
+				"createdAt": "2024-05-13T11:32:43.964Z",
+				"updatedAt": "2024-05-14T16:18:52.614Z",
+				"publishedAt": "2024-05-14T16:18:52.612Z",
+				"date": "2024-05-09",
+				"description": "Application basique de bloc-notes avec stockage local des notes.",
+				"github": "https://github.com/annieherieau/thp_notes",
+				"content": null,
+				"url": "https://annieherieau.github.io/thp_notes/",
+				"category": {
+					"data": {
+						"id": 3,
+						"attributes": {
+							"name": "cases",
+							"slug": "cases",
+							"title": "Etudes de Cas",
+							"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+							"createdAt": "2024-05-10T14:26:52.960Z",
+							"updatedAt": "2024-05-13T16:27:36.538Z",
+							"publishedAt": "2024-05-13T16:28:50.101Z"
+						}
+					}
+				},
+				"client": {
+					"data": {
+						"id": 3,
+						"attributes": {
+							"name": "The Hacking Project",
+							"slug": "the-hacking-project",
+							"description": "description The Hacking Project",
+							"url": "https://www.thehackingproject.org/",
+							"createdAt": "2024-05-10T13:32:04.616Z",
+							"updatedAt": "2024-05-14T17:22:14.075Z",
+							"publishedAt": "2024-05-14T17:22:23.582Z"
+						}
+					}
+				},
+				"cover": {
+					"data": {
+						"id": 35,
+						"attributes": {
+							"name": "bloc-notes.png",
+							"alternativeText": "bloc-notes-cover",
+							"caption": null,
+							"width": 2028,
+							"height": 1708,
+							"formats": {
+								"thumbnail": {
+									"name": "thumbnail_Capture d’écran 2024-05-14 à 18.16.39.png",
+									"hash": "thumbnail_Capture_d_ecran_2024_05_14_a_18_16_39_f6530ae49d",
+									"ext": ".png",
+									"mime": "image/png",
+									"path": null,
+									"width": 185,
+									"height": 156,
+									"size": 8.02,
+									"sizeInBytes": 8020,
+									"url": "/uploads/thumbnail_Capture_d_ecran_2024_05_14_a_18_16_39_f6530ae49d.png"
+								},
+								"small": {
+									"name": "small_Capture d’écran 2024-05-14 à 18.16.39.png",
+									"hash": "small_Capture_d_ecran_2024_05_14_a_18_16_39_f6530ae49d",
+									"ext": ".png",
+									"mime": "image/png",
+									"path": null,
+									"width": 500,
+									"height": 421,
+									"size": 29.69,
+									"sizeInBytes": 29687,
+									"url": "/uploads/small_Capture_d_ecran_2024_05_14_a_18_16_39_f6530ae49d.png"
+								},
+								"medium": {
+									"name": "medium_Capture d’écran 2024-05-14 à 18.16.39.png",
+									"hash": "medium_Capture_d_ecran_2024_05_14_a_18_16_39_f6530ae49d",
+									"ext": ".png",
+									"mime": "image/png",
+									"path": null,
+									"width": 750,
+									"height": 632,
+									"size": 54.06,
+									"sizeInBytes": 54057,
+									"url": "/uploads/medium_Capture_d_ecran_2024_05_14_a_18_16_39_f6530ae49d.png"
+								},
+								"large": {
+									"name": "large_Capture d’écran 2024-05-14 à 18.16.39.png",
+									"hash": "large_Capture_d_ecran_2024_05_14_a_18_16_39_f6530ae49d",
+									"ext": ".png",
+									"mime": "image/png",
+									"path": null,
+									"width": 1000,
+									"height": 842,
+									"size": 78.62,
+									"sizeInBytes": 78623,
+									"url": "/uploads/large_Capture_d_ecran_2024_05_14_a_18_16_39_f6530ae49d.png"
+								}
+							},
+							"hash": "Capture_d_ecran_2024_05_14_a_18_16_39_f6530ae49d",
+							"ext": ".png",
+							"mime": "image/png",
+							"size": 36.41,
+							"url": "/uploads/Capture_d_ecran_2024_05_14_a_18_16_39_f6530ae49d.png",
+							"previewUrl": null,
+							"provider": "local",
+							"provider_metadata": null,
+							"createdAt": "2024-05-14T16:17:32.305Z",
+							"updatedAt": "2024-05-14T16:18:28.559Z"
+						}
+					}
+				},
+				"media": {
+					"data": null
+				},
+				"stacks": {
+					"data": [
+						{
+							"id": 5,
+							"attributes": {
+								"name": "Javascript",
+								"createdAt": "2024-05-10T15:38:48.442Z",
+								"updatedAt": "2024-05-14T17:06:43.786Z",
+								"publishedAt": "2024-05-14T17:06:43.784Z",
+								"slug": "javascript"
+							}
+						}
+					]
+				},
+				"tools": {
+					"data": []
+				}
+			}
+		},
+		{
+			"id": 7,
+			"attributes": {
+				"title": "Coach Voyages",
+				"slug": "coach-voyages",
+				"createdAt": "2024-05-14T16:57:18.601Z",
+				"updatedAt": "2024-05-14T17:09:04.450Z",
+				"publishedAt": "2024-05-14T17:09:04.447Z",
+				"date": "2022-05-08",
+				"description": "Site vitrine pour coach voyages indépendant.",
+				"github": null,
+				"content": null,
+				"url": "https://suzannemolette.fr/",
+				"category": {
+					"data": {
+						"id": 2,
+						"attributes": {
+							"name": "projects",
+							"slug": "projets",
+							"title": "Projets",
+							"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+							"createdAt": "2024-05-10T14:23:59.187Z",
+							"updatedAt": "2024-05-13T16:27:50.168Z",
+							"publishedAt": "2024-05-13T16:28:50.101Z"
+						}
+					}
+				},
+				"client": {
+					"data": {
+						"id": 2,
+						"attributes": {
+							"name": "Suzanne Molette",
+							"slug": "suzanne-molette",
+							"description": "Coach Voyages indépendant",
+							"url": "https://www.linkedin.com/in/suzanne-molette/?originalSubdomain=fr",
+							"createdAt": "2024-05-10T13:27:48.944Z",
+							"updatedAt": "2024-05-14T17:21:46.285Z",
+							"publishedAt": "2024-05-14T17:22:23.582Z"
+						}
+					}
+				},
+				"cover": {
+					"data": {
+						"id": 39,
+						"attributes": {
+							"name": "coach-voyages.png",
+							"alternativeText": "coach-voyages-cover",
+							"caption": null,
+							"width": 2022,
+							"height": 1792,
+							"formats": {
+								"thumbnail": {
+									"name": "thumbnail_coach-voyages.png",
+									"hash": "thumbnail_coach_voyages_81fc17920a",
+									"ext": ".png",
+									"mime": "image/png",
+									"path": null,
+									"width": 176,
+									"height": 156,
+									"size": 59.46,
+									"sizeInBytes": 59461,
+									"url": "/uploads/thumbnail_coach_voyages_81fc17920a.png"
+								},
+								"small": {
+									"name": "small_coach-voyages.png",
+									"hash": "small_coach_voyages_81fc17920a",
+									"ext": ".png",
+									"mime": "image/png",
+									"path": null,
+									"width": 500,
+									"height": 443,
+									"size": 378.43,
+									"sizeInBytes": 378430,
+									"url": "/uploads/small_coach_voyages_81fc17920a.png"
+								},
+								"medium": {
+									"name": "medium_coach-voyages.png",
+									"hash": "medium_coach_voyages_81fc17920a",
+									"ext": ".png",
+									"mime": "image/png",
+									"path": null,
+									"width": 750,
+									"height": 665,
+									"size": 774.08,
+									"sizeInBytes": 774077,
+									"url": "/uploads/medium_coach_voyages_81fc17920a.png"
+								},
+								"large": {
+									"name": "large_coach-voyages.png",
+									"hash": "large_coach_voyages_81fc17920a",
+									"ext": ".png",
+									"mime": "image/png",
+									"path": null,
+									"width": 1000,
+									"height": 886,
+									"size": 1323.94,
+									"sizeInBytes": 1323944,
+									"url": "/uploads/large_coach_voyages_81fc17920a.png"
+								}
+							},
+							"hash": "coach_voyages_81fc17920a",
+							"ext": ".png",
+							"mime": "image/png",
+							"size": 896.89,
+							"url": "/uploads/coach_voyages_81fc17920a.png",
+							"previewUrl": null,
+							"provider": "local",
+							"provider_metadata": null,
+							"createdAt": "2024-05-14T16:57:03.714Z",
+							"updatedAt": "2024-05-14T16:57:03.714Z"
+						}
+					}
+				},
+				"media": {
+					"data": null
+				},
+				"stacks": {
+					"data": [
+						{
+							"id": 10,
+							"attributes": {
+								"name": "Wordpress",
+								"createdAt": "2024-05-14T17:02:26.542Z",
+								"updatedAt": "2024-05-14T17:07:29.266Z",
+								"publishedAt": "2024-05-14T17:07:29.264Z",
+								"slug": "wordpress"
+							}
+						}
+					]
+				},
+				"tools": {
+					"data": []
+				}
+			}
+		},
+		{
+			"id": 8,
+			"attributes": {
+				"title": "Annie HD",
+				"slug": "annie-hd",
+				"createdAt": "2024-05-14T17:12:34.259Z",
+				"updatedAt": "2024-05-14T17:12:35.352Z",
+				"publishedAt": "2024-05-14T17:12:35.350Z",
+				"date": "2021-01-03",
+				"description": "Site vitrine de mon activité d'autoentrepreneur : création de site web.",
+				"github": null,
+				"content": null,
+				"url": "https://anniehd.com",
+				"category": {
+					"data": {
+						"id": 2,
+						"attributes": {
+							"name": "projects",
+							"slug": "projets",
+							"title": "Projets",
+							"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+							"createdAt": "2024-05-10T14:23:59.187Z",
+							"updatedAt": "2024-05-13T16:27:50.168Z",
+							"publishedAt": "2024-05-13T16:28:50.101Z"
+						}
+					}
+				},
+				"client": {
+					"data": {
+						"id": 1,
+						"attributes": {
+							"name": "Annie HD",
+							"slug": "annie-hd",
+							"description": "Auto entrepreneure **Annie HD**, je connecte l’Humain au Digital. Je soutiens les professionnels qui veulent, comme vous, prospecter et se faire connaître sur internet pour développer leur chiffre d’affaires tout en restant fidèles à leurs valeurs.",
+							"url": "https://anniehd.com/",
+							"createdAt": "2024-05-10T13:16:31.210Z",
+							"updatedAt": "2024-05-10T13:28:05.224Z",
+							"publishedAt": "2024-05-14T17:22:23.582Z"
+						}
+					}
+				},
+				"cover": {
+					"data": {
+						"id": 41,
+						"attributes": {
+							"name": "annie-hd.png",
+							"alternativeText": "annie-hd-cover",
+							"caption": null,
+							"width": 2022,
+							"height": 1792,
+							"formats": {
+								"thumbnail": {
+									"name": "thumbnail_annie-hd.png",
+									"hash": "thumbnail_annie_hd_9b1ac4d62c",
+									"ext": ".png",
+									"mime": "image/png",
+									"path": null,
+									"width": 176,
+									"height": 156,
+									"size": 27.38,
+									"sizeInBytes": 27384,
+									"url": "/uploads/thumbnail_annie_hd_9b1ac4d62c.png"
+								},
+								"small": {
+									"name": "small_annie-hd.png",
+									"hash": "small_annie_hd_9b1ac4d62c",
+									"ext": ".png",
+									"mime": "image/png",
+									"path": null,
+									"width": 500,
+									"height": 443,
+									"size": 146.09,
+									"sizeInBytes": 146086,
+									"url": "/uploads/small_annie_hd_9b1ac4d62c.png"
+								},
+								"medium": {
+									"name": "medium_annie-hd.png",
+									"hash": "medium_annie_hd_9b1ac4d62c",
+									"ext": ".png",
+									"mime": "image/png",
+									"path": null,
+									"width": 750,
+									"height": 665,
+									"size": 278.48,
+									"sizeInBytes": 278476,
+									"url": "/uploads/medium_annie_hd_9b1ac4d62c.png"
+								},
+								"large": {
+									"name": "large_annie-hd.png",
+									"hash": "large_annie_hd_9b1ac4d62c",
+									"ext": ".png",
+									"mime": "image/png",
+									"path": null,
+									"width": 1000,
+									"height": 886,
+									"size": 453.45,
+									"sizeInBytes": 453453,
+									"url": "/uploads/large_annie_hd_9b1ac4d62c.png"
+								}
+							},
+							"hash": "annie_hd_9b1ac4d62c",
+							"ext": ".png",
+							"mime": "image/png",
+							"size": 282.47,
+							"url": "/uploads/annie_hd_9b1ac4d62c.png",
+							"previewUrl": null,
+							"provider": "local",
+							"provider_metadata": null,
+							"createdAt": "2024-05-14T17:12:26.579Z",
+							"updatedAt": "2024-05-14T17:12:26.579Z"
+						}
+					}
+				},
+				"media": {
+					"data": null
+				},
+				"stacks": {
+					"data": [
+						{
+							"id": 10,
+							"attributes": {
+								"name": "Wordpress",
+								"createdAt": "2024-05-14T17:02:26.542Z",
+								"updatedAt": "2024-05-14T17:07:29.266Z",
+								"publishedAt": "2024-05-14T17:07:29.264Z",
+								"slug": "wordpress"
+							}
+						}
+					]
+				},
+				"tools": {
+					"data": []
 				}
 			}
 		}
@@ -212,7 +918,7 @@
 			"page": 1,
 			"pageSize": 25,
 			"pageCount": 1,
-			"total": 1
+			"total": 6
 		}
 	}
 }

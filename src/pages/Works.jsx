@@ -3,8 +3,8 @@ import WorkList from "../components/WorkList";
 import { Button, ButtonGroup } from "react-bootstrap";
 
 export default function Works() {
-  const [showExercices, setShowExercices] = useState(false);
-  const [showCases, setShowCases] = useState(false);
+  const [showExercices, setShowExercices] = useState(true);
+  const [showCases, setShowCases] = useState(true);
   const [showProjects, setShowProjects] = useState(true);
   return (
     <section className="Works">
