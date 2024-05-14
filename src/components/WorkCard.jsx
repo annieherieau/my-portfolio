@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 export default function WorkCard(props) {
   const { title, slug, description, cover , github, url} = props.workdata;
-  const sluglink = `/projects/${slug}`
+  const sluglink = `/my-portfolio/projects/${slug}`
   return (
     <Card>
       <div className="row g-0">
