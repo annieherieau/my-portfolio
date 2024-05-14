@@ -16,8 +16,6 @@ export default function WorkList({ filter }) {
     );
     setWorks(data);
   }, [filter]);
-
-  console.log(works);
   // FETCH
   // let filter_params = "";
   // filter_params = `&filters[${name}][name][$eq]=${value}`;

@@ -34,3 +34,8 @@ footer {
   background-color: black;
   color: white;
 }
+.CardCover {
+  @extend .rounded-start;
+  width: 100%;
+  height: auto;
+}
