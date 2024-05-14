@@ -18,9 +18,12 @@ export default function Works() {
       <button className={showExercices ? 'active' : ''} onClick={() => setShowExercices((showExercices) => !showExercices)}>
         Exercices
       </button>
-      {showExercices && <WorkList filter={{name:'category', value: 'exercices'}}/>}
-      {showCases && <WorkList filter={{name:'category', value: 'cases'}}/>}
+      {showProjects && <h2>Projets</h2>}
       {showProjects && <WorkList filter={{name:'category', value: 'projects'}}/>}
+      {showCases && <h2>Études de cas</h2>}
+      {showCases && <WorkList filter={{name:'category', value: 'cases'}}/>}
+      {showExercices && <h2>Exercices</h2>}
+      {showExercices && <WorkList filter={{name:'category', value: 'exercices'}}/>}
     </section>
   );
 }
