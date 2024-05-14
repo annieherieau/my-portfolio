@@ -3,8 +3,8 @@ import Contact from "../components/Contact";
 
 export default function Home({ theme }) {
   return (
-    <main className={theme}>
-      <section id="profile">
+    <main id="top" className={theme}>
+      <section >
         <h1>
           Bonjour, je m'appelle Annie Hérieau.
           <br />

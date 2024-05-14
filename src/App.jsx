@@ -29,11 +29,12 @@ export default function App() {
 
         <Routes>
           <Route path="/" element={<Home theme={theme} />} />
+          <Route path="/#top" />
           <Route path="/#works" />
           <Route path="/#contact" />
-          <Route path="/curriculum" element={<Curriculum />} />
+          <Route path="/curriculum" element={<Curriculum theme={theme}/>} />
 
-          <Route path="/work/:filter/:workSlug" element={<WorkPage />} />
+          <Route path="/projects/:workSlug" element={<WorkPage theme={theme}/>} />
         </Routes>
         <Footer theme={theme} />
       </DarkModeContext.Provider>
