@@ -1,4 +1,4 @@
-import { Card, CardBody, CardImg, CardText, CardTitle } from "react-bootstrap";
+import { Card, CardBody, CardText, CardTitle } from "react-bootstrap";
 import CardCover from "./CardCover";
 
 export default function WorkCard(props) {
