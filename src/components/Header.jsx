@@ -19,17 +19,17 @@ export default function Header(props) {
           <Navbar.Collapse id="navbarTop">
             <Nav className="navbar-nav me-auto">
               <NavItem>
-                <Link className="nav-link" to="/#top">
+                <Link className="nav-link" to="/my-portfolio/#top">
                   Annie Hérieau
                 </Link>
               </NavItem>
               <NavItem>
-                <Link className="nav-link" to="/#works">
+                <Link className="nav-link" to="/my-portfolio#works">
                   Projets
                 </Link>
               </NavItem>
               <NavItem>
-                <Link className="nav-link" to="/#contact">
+                <Link className="nav-link" to="/my-portfolio#contact">
                   Contact
                 </Link>
               </NavItem>
