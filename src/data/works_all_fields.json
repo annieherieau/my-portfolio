@@ -1,0 +1,619 @@
+{
+	"data": [
+		{
+			"id": 1,
+			"attributes": {
+				"title": "RAYMote IT",
+				"slug": "raymote-it",
+				"createdAt": "2024-05-10T15:18:12.252Z",
+				"updatedAt": "2024-05-14T12:52:44.343Z",
+				"publishedAt": "2024-05-14T12:24:14.893Z",
+				"date": "2024-04-03",
+				"description": "Plateforme de e-learning innovante dédiée à l’informatique et à la technologie. Projet fullstack en équipe présenté en jury de le formation THP.",
+				"github": "https://github.com/annieherieau/RAYMote_IT",
+				"content": "## 1. Présentation\n**RAYMote IT** est une plateforme de e-learning innovante dédiée à l’informatique et à la technologie. Ce qui distingue **RAYMote IT** , c’est sa communauté d’apprenants actifs et engagés dans un environnement d’apprentissage collaboratif et dynamique.\n\nDébutants cherchant à comprendre les fondamentaux, ou professionnels expérimentés, les utilisateurs peuvent proposer et s'inscrire à des ateliers en ligne, allant des bases de la programmation aux technologies avancées.\n\n**RAYMote IT** : Revolutionize All Your Mastery\n\n## 2. Fonctionnalités principales\n- Catalogue de ressources / market place\n- Dashboard utilisateur: gestion des inscriptions\n- Dashboard créateur: gestion des cours proposés en market place\n- Dashboard administrateur: modération du contenu publié\n- Paiement en ligne\n- Email automatiques",
+				"url": "https://raymote-it-dev.fly.dev/",
+				"category": {
+					"data": {
+						"id": 2,
+						"attributes": {
+							"name": "projects",
+							"slug": "projets",
+							"title": "Projets",
+							"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+							"createdAt": "2024-05-10T14:23:59.187Z",
+							"updatedAt": "2024-05-13T16:27:50.168Z",
+							"publishedAt": "2024-05-13T16:28:50.101Z"
+						}
+					}
+				},
+				"client": {
+					"data": {
+						"id": 3,
+						"attributes": {
+							"name": "The Hacking Project",
+							"slug": "the-hacking-project",
+							"description": "description The Hacking Project",
+							"url": "https://www.thehackingproject.org/",
+							"createdAt": "2024-05-10T13:32:04.616Z",
+							"updatedAt": "2024-05-10T14:13:47.968Z",
+							"publishedAt": "2024-05-13T16:28:42.218Z"
+						}
+					}
+				},
+				"cover": {
+					"data": {
+						"id": 34,
+						"attributes": {
+							"name": "raymote-it.png",
+							"alternativeText": "raymote-it-cover",
+							"caption": null,
+							"width": 2586,
+							"height": 1544,
+							"formats": {
+								"thumbnail": {
+									"name": "thumbnail_raymote-it.png",
+									"hash": "thumbnail_raymote_it_2ae5fae060",
+									"ext": ".png",
+									"mime": "image/png",
+									"path": null,
+									"width": 245,
+									"height": 146,
+									"size": 33.44,
+									"sizeInBytes": 33443,
+									"url": "/uploads/thumbnail_raymote_it_2ae5fae060.png"
+								},
+								"small": {
+									"name": "small_raymote-it.png",
+									"hash": "small_raymote_it_2ae5fae060",
+									"ext": ".png",
+									"mime": "image/png",
+									"path": null,
+									"width": 500,
+									"height": 299,
+									"size": 103.76,
+									"sizeInBytes": 103758,
+									"url": "/uploads/small_raymote_it_2ae5fae060.png"
+								},
+								"medium": {
+									"name": "medium_raymote-it.png",
+									"hash": "medium_raymote_it_2ae5fae060",
+									"ext": ".png",
+									"mime": "image/png",
+									"path": null,
+									"width": 750,
+									"height": 448,
+									"size": 198.75,
+									"sizeInBytes": 198752,
+									"url": "/uploads/medium_raymote_it_2ae5fae060.png"
+								},
+								"large": {
+									"name": "large_raymote-it.png",
+									"hash": "large_raymote_it_2ae5fae060",
+									"ext": ".png",
+									"mime": "image/png",
+									"path": null,
+									"width": 1000,
+									"height": 597,
+									"size": 323.71,
+									"sizeInBytes": 323707,
+									"url": "/uploads/large_raymote_it_2ae5fae060.png"
+								}
+							},
+							"hash": "raymote_it_2ae5fae060",
+							"ext": ".png",
+							"mime": "image/png",
+							"size": 453.01,
+							"url": "/uploads/raymote_it_2ae5fae060.png",
+							"previewUrl": null,
+							"provider": "local",
+							"provider_metadata": null,
+							"createdAt": "2024-05-14T12:22:51.720Z",
+							"updatedAt": "2024-05-14T12:52:39.652Z"
+						}
+					}
+				},
+				"media": {
+					"data": null
+				},
+				"stacks": {
+					"data": [
+						{
+							"id": 6,
+							"attributes": {
+								"name": "Ruby",
+								"createdAt": "2024-05-13T08:50:01.353Z",
+								"updatedAt": "2024-05-13T08:50:06.811Z",
+								"publishedAt": "2024-05-13T16:28:33.003Z",
+								"slug": "ruby"
+							}
+						},
+						{
+							"id": 7,
+							"attributes": {
+								"name": "Ruby on Rails",
+								"createdAt": "2024-05-13T08:51:33.908Z",
+								"updatedAt": "2024-05-13T08:51:37.818Z",
+								"publishedAt": "2024-05-13T16:28:33.003Z",
+								"slug": "ruby-on-rails"
+							}
+						},
+						{
+							"id": 8,
+							"attributes": {
+								"name": "PostgreSQL",
+								"createdAt": "2024-05-13T08:54:10.784Z",
+								"updatedAt": "2024-05-13T08:54:20.163Z",
+								"publishedAt": "2024-05-13T16:28:33.003Z",
+								"slug": "postgre-sql"
+							}
+						},
+						{
+							"id": 9,
+							"attributes": {
+								"name": "Bootstrap",
+								"createdAt": "2024-05-13T08:55:34.877Z",
+								"updatedAt": "2024-05-13T08:55:36.130Z",
+								"publishedAt": "2024-05-13T16:28:33.003Z",
+								"slug": "bootstrap"
+							}
+						}
+					]
+				},
+				"tools": {
+					"data": [
+						{
+							"id": 3,
+							"attributes": {
+								"name": "Figma",
+								"slug": "figma",
+								"createdAt": "2024-05-13T09:16:09.386Z",
+								"updatedAt": "2024-05-13T09:16:10.102Z",
+								"publishedAt": "2024-05-13T16:28:22.746Z"
+							}
+						},
+						{
+							"id": 6,
+							"attributes": {
+								"name": "Git",
+								"slug": "git",
+								"createdAt": "2024-05-13T09:18:27.474Z",
+								"updatedAt": "2024-05-13T09:18:28.702Z",
+								"publishedAt": "2024-05-13T16:28:22.746Z"
+							}
+						},
+						{
+							"id": 2,
+							"attributes": {
+								"name": "Github",
+								"slug": "github",
+								"createdAt": "2024-05-13T09:15:49.248Z",
+								"updatedAt": "2024-05-13T09:15:50.871Z",
+								"publishedAt": "2024-05-13T16:28:22.746Z"
+							}
+						},
+						{
+							"id": 1,
+							"attributes": {
+								"name": "Trello",
+								"slug": "trello",
+								"createdAt": "2024-05-13T09:11:44.208Z",
+								"updatedAt": "2024-05-13T09:15:04.544Z",
+								"publishedAt": "2024-05-13T16:28:22.746Z"
+							}
+						}
+					]
+				}
+			}
+		},
+		{
+			"id": 2,
+			"attributes": {
+				"title": "Catisfaction",
+				"slug": "catisfaction",
+				"createdAt": "2024-05-13T09:02:33.176Z",
+				"updatedAt": "2024-05-13T09:02:35.341Z",
+				"publishedAt": "2024-05-13T16:28:57.894Z",
+				"date": "2024-04-19",
+				"description": "Projet Fullstack en équipe: site e-commerce de vente de photos de chats.",
+				"github": "https://github.com/annieherieau/Projet_chaton_ultimate",
+				"content": null,
+				"url": null,
+				"category": {
+					"data": {
+						"id": 2,
+						"attributes": {
+							"name": "projects",
+							"slug": "projets",
+							"title": "Projets",
+							"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+							"createdAt": "2024-05-10T14:23:59.187Z",
+							"updatedAt": "2024-05-13T16:27:50.168Z",
+							"publishedAt": "2024-05-13T16:28:50.101Z"
+						}
+					}
+				},
+				"client": {
+					"data": {
+						"id": 3,
+						"attributes": {
+							"name": "The Hacking Project",
+							"slug": "the-hacking-project",
+							"description": "description The Hacking Project",
+							"url": "https://www.thehackingproject.org/",
+							"createdAt": "2024-05-10T13:32:04.616Z",
+							"updatedAt": "2024-05-10T14:13:47.968Z",
+							"publishedAt": "2024-05-13T16:28:42.218Z"
+						}
+					}
+				},
+				"cover": {
+					"data": null
+				},
+				"media": {
+					"data": null
+				},
+				"stacks": {
+					"data": [
+						{
+							"id": 6,
+							"attributes": {
+								"name": "Ruby",
+								"createdAt": "2024-05-13T08:50:01.353Z",
+								"updatedAt": "2024-05-13T08:50:06.811Z",
+								"publishedAt": "2024-05-13T16:28:33.003Z",
+								"slug": "ruby"
+							}
+						},
+						{
+							"id": 7,
+							"attributes": {
+								"name": "Ruby on Rails",
+								"createdAt": "2024-05-13T08:51:33.908Z",
+								"updatedAt": "2024-05-13T08:51:37.818Z",
+								"publishedAt": "2024-05-13T16:28:33.003Z",
+								"slug": "ruby-on-rails"
+							}
+						},
+						{
+							"id": 8,
+							"attributes": {
+								"name": "PostgreSQL",
+								"createdAt": "2024-05-13T08:54:10.784Z",
+								"updatedAt": "2024-05-13T08:54:20.163Z",
+								"publishedAt": "2024-05-13T16:28:33.003Z",
+								"slug": "postgre-sql"
+							}
+						},
+						{
+							"id": 9,
+							"attributes": {
+								"name": "Bootstrap",
+								"createdAt": "2024-05-13T08:55:34.877Z",
+								"updatedAt": "2024-05-13T08:55:36.130Z",
+								"publishedAt": "2024-05-13T16:28:33.003Z",
+								"slug": "bootstrap"
+							}
+						}
+					]
+				},
+				"tools": {
+					"data": []
+				}
+			}
+		},
+		{
+			"id": 3,
+			"attributes": {
+				"title": "Jeu du morpion",
+				"slug": "jeu-du-morpion",
+				"createdAt": "2024-05-13T09:39:02.029Z",
+				"updatedAt": "2024-05-13T11:29:02.664Z",
+				"publishedAt": "2024-05-13T16:28:57.894Z",
+				"date": "2024-02-02",
+				"description": "Mise en pratique du langage Ruby.",
+				"github": "https://github.com/annieherieau/thp_morpion_game",
+				"content": "## Présentation\nJeu du morpion (tic-tac-toe) exécuté dans le terminal.\n\n## Fonctionnalités\n- Demande du nom des joueurs\n- Lancement de la partie\n- Possibilité de rejouer\n- Fin de partie: affichage du tableau des scores (victoires / défaites)",
+				"url": null,
+				"category": {
+					"data": {
+						"id": 1,
+						"attributes": {
+							"name": "exercices",
+							"slug": "exercices",
+							"title": "Exercices",
+							"description": "description Exercices pratiques. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+							"createdAt": "2024-05-10T13:42:28.725Z",
+							"updatedAt": "2024-05-13T16:27:43.434Z",
+							"publishedAt": "2024-05-13T16:28:50.101Z"
+						}
+					}
+				},
+				"client": {
+					"data": {
+						"id": 3,
+						"attributes": {
+							"name": "The Hacking Project",
+							"slug": "the-hacking-project",
+							"description": "description The Hacking Project",
+							"url": "https://www.thehackingproject.org/",
+							"createdAt": "2024-05-10T13:32:04.616Z",
+							"updatedAt": "2024-05-10T14:13:47.968Z",
+							"publishedAt": "2024-05-13T16:28:42.218Z"
+						}
+					}
+				},
+				"cover": {
+					"data": null
+				},
+				"media": {
+					"data": null
+				},
+				"stacks": {
+					"data": [
+						{
+							"id": 6,
+							"attributes": {
+								"name": "Ruby",
+								"createdAt": "2024-05-13T08:50:01.353Z",
+								"updatedAt": "2024-05-13T08:50:06.811Z",
+								"publishedAt": "2024-05-13T16:28:33.003Z",
+								"slug": "ruby"
+							}
+						}
+					]
+				},
+				"tools": {
+					"data": [
+						{
+							"id": 5,
+							"attributes": {
+								"name": "Terminal",
+								"slug": "terminal",
+								"createdAt": "2024-05-13T09:17:07.216Z",
+								"updatedAt": "2024-05-13T09:17:08.855Z",
+								"publishedAt": "2024-05-13T16:28:22.746Z"
+							}
+						}
+					]
+				}
+			}
+		},
+		{
+			"id": 4,
+			"attributes": {
+				"title": "Email Viewer",
+				"slug": "email-viewer",
+				"createdAt": "2024-05-13T09:45:54.124Z",
+				"updatedAt": "2024-05-13T11:28:49.841Z",
+				"publishedAt": "2024-05-13T16:28:57.894Z",
+				"date": "2024-03-11",
+				"description": "Application Single page de consultation des emails",
+				"github": "https://github.com/annieherieau/thp_email_viewer",
+				"content": "Email Viewer est une application d'une seule page:\n\n- Une colonne affichant la liste des faux emails dans la boîte aux lettres\n- Une colonne affichant le contenu de l'email en cours de lecture\n- Un bouton pour simuler l'arrivée de nouveaux messges",
+				"url": "https://thp-email-viewer.fly.dev/",
+				"category": {
+					"data": {
+						"id": 3,
+						"attributes": {
+							"name": "cases",
+							"slug": "cases",
+							"title": "Etudes de Cas",
+							"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+							"createdAt": "2024-05-10T14:26:52.960Z",
+							"updatedAt": "2024-05-13T16:27:36.538Z",
+							"publishedAt": "2024-05-13T16:28:50.101Z"
+						}
+					}
+				},
+				"client": {
+					"data": {
+						"id": 3,
+						"attributes": {
+							"name": "The Hacking Project",
+							"slug": "the-hacking-project",
+							"description": "description The Hacking Project",
+							"url": "https://www.thehackingproject.org/",
+							"createdAt": "2024-05-10T13:32:04.616Z",
+							"updatedAt": "2024-05-10T14:13:47.968Z",
+							"publishedAt": "2024-05-13T16:28:42.218Z"
+						}
+					}
+				},
+				"cover": {
+					"data": null
+				},
+				"media": {
+					"data": null
+				},
+				"stacks": {
+					"data": [
+						{
+							"id": 6,
+							"attributes": {
+								"name": "Ruby",
+								"createdAt": "2024-05-13T08:50:01.353Z",
+								"updatedAt": "2024-05-13T08:50:06.811Z",
+								"publishedAt": "2024-05-13T16:28:33.003Z",
+								"slug": "ruby"
+							}
+						},
+						{
+							"id": 7,
+							"attributes": {
+								"name": "Ruby on Rails",
+								"createdAt": "2024-05-13T08:51:33.908Z",
+								"updatedAt": "2024-05-13T08:51:37.818Z",
+								"publishedAt": "2024-05-13T16:28:33.003Z",
+								"slug": "ruby-on-rails"
+							}
+						},
+						{
+							"id": 9,
+							"attributes": {
+								"name": "Bootstrap",
+								"createdAt": "2024-05-13T08:55:34.877Z",
+								"updatedAt": "2024-05-13T08:55:36.130Z",
+								"publishedAt": "2024-05-13T16:28:33.003Z",
+								"slug": "bootstrap"
+							}
+						}
+					]
+				},
+				"tools": {
+					"data": []
+				}
+			}
+		},
+		{
+			"id": 5,
+			"attributes": {
+				"title": "The Gossip Project",
+				"slug": "the-gossip-project",
+				"createdAt": "2024-05-13T09:59:21.127Z",
+				"updatedAt": "2024-05-13T10:17:24.152Z",
+				"publishedAt": "2024-05-13T16:28:57.894Z",
+				"date": "2024-02-19",
+				"description": "Application basique sur le framework Ruby on Rails.",
+				"github": "https://github.com/annieherieau/the_gossip_project_rails",
+				"content": "## Fonctionnalités\n- Page d'accueil : listes des potins (auteurs, villes, contenus, nombre de commentaires, nombre de like)\n- Compte utilisateur et emails automatiques\n- Utilisateurs connecté : gestion des potins, commentaires, likes",
+				"url": null,
+				"category": {
+					"data": {
+						"id": 3,
+						"attributes": {
+							"name": "cases",
+							"slug": "cases",
+							"title": "Etudes de Cas",
+							"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+							"createdAt": "2024-05-10T14:26:52.960Z",
+							"updatedAt": "2024-05-13T16:27:36.538Z",
+							"publishedAt": "2024-05-13T16:28:50.101Z"
+						}
+					}
+				},
+				"client": {
+					"data": {
+						"id": 3,
+						"attributes": {
+							"name": "The Hacking Project",
+							"slug": "the-hacking-project",
+							"description": "description The Hacking Project",
+							"url": "https://www.thehackingproject.org/",
+							"createdAt": "2024-05-10T13:32:04.616Z",
+							"updatedAt": "2024-05-10T14:13:47.968Z",
+							"publishedAt": "2024-05-13T16:28:42.218Z"
+						}
+					}
+				},
+				"cover": {
+					"data": null
+				},
+				"media": {
+					"data": null
+				},
+				"stacks": {
+					"data": [
+						{
+							"id": 6,
+							"attributes": {
+								"name": "Ruby",
+								"createdAt": "2024-05-13T08:50:01.353Z",
+								"updatedAt": "2024-05-13T08:50:06.811Z",
+								"publishedAt": "2024-05-13T16:28:33.003Z",
+								"slug": "ruby"
+							}
+						},
+						{
+							"id": 7,
+							"attributes": {
+								"name": "Ruby on Rails",
+								"createdAt": "2024-05-13T08:51:33.908Z",
+								"updatedAt": "2024-05-13T08:51:37.818Z",
+								"publishedAt": "2024-05-13T16:28:33.003Z",
+								"slug": "ruby-on-rails"
+							}
+						}
+					]
+				},
+				"tools": {
+					"data": []
+				}
+			}
+		},
+		{
+			"id": 6,
+			"attributes": {
+				"title": "Bloc Notes",
+				"slug": "bloc-notes",
+				"createdAt": "2024-05-13T11:32:43.964Z",
+				"updatedAt": "2024-05-13T16:29:51.156Z",
+				"publishedAt": "2024-05-13T16:28:57.894Z",
+				"date": "2024-05-09",
+				"description": "Application basique de bloc-notes avec stockage local des notes.",
+				"github": "https://github.com/annieherieau/thp_notes",
+				"content": null,
+				"url": "https://annieherieau.github.io/thp_notes/",
+				"category": {
+					"data": {
+						"id": 3,
+						"attributes": {
+							"name": "cases",
+							"slug": "cases",
+							"title": "Etudes de Cas",
+							"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+							"createdAt": "2024-05-10T14:26:52.960Z",
+							"updatedAt": "2024-05-13T16:27:36.538Z",
+							"publishedAt": "2024-05-13T16:28:50.101Z"
+						}
+					}
+				},
+				"client": {
+					"data": {
+						"id": 3,
+						"attributes": {
+							"name": "The Hacking Project",
+							"slug": "the-hacking-project",
+							"description": "description The Hacking Project",
+							"url": "https://www.thehackingproject.org/",
+							"createdAt": "2024-05-10T13:32:04.616Z",
+							"updatedAt": "2024-05-10T14:13:47.968Z",
+							"publishedAt": "2024-05-13T16:28:42.218Z"
+						}
+					}
+				},
+				"cover": {
+					"data": null
+				},
+				"media": {
+					"data": null
+				},
+				"stacks": {
+					"data": [
+						{
+							"id": 5,
+							"attributes": {
+								"name": "Javascript",
+								"createdAt": "2024-05-10T15:38:48.442Z",
+								"updatedAt": "2024-05-13T08:50:23.018Z",
+								"publishedAt": "2024-05-13T16:28:33.003Z",
+								"slug": "javascript"
+							}
+						}
+					]
+				},
+				"tools": {
+					"data": []
+				}
+			}
+		}
+	],
+	"meta": {
+		"pagination": {
+			"page": 1,
+			"pageSize": 25,
+			"pageCount": 1,
+			"total": 6
+		}
+	}
+}
