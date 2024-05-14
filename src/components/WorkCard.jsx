@@ -6,18 +6,18 @@ export default function WorkCard(props) {
   let image;
 
   if (cover.data){
-    console.log()
+    console.log(cover.data)
   }
   
   
 
   console.log(props.workdata.cover);
   return (
-    <Card className="card mb-3">
+    <Card>
       <div className="row g-0">
         <div className="col-md-4">
           <CardCover imgData={cover.data} />
-          <CardImg src="..." className="img-fluid rounded-start" alt="..." />
+
         </div>
         <div className="col-md-8">
           <CardBody className="card-body">

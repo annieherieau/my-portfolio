@@ -1,37 +1,50 @@
 import { useState } from "react";
 import { useEffect } from "react";
-import { Link } from "react-router-dom";
+import WorkCard from "./WorkCard";
+import works_all_fields from "../data/works_all_fields.json";
 
 export default function WorkList({ filter }) {
+  // let filter_params = "";
   const { name, value } = filter;
-  const [works, setWorks] = useState(null);
 
-  const api_key = import.meta.env.VITE_STRAPI_KEY;
-  const api_url = import.meta.env.VITE_STRAPI_URL;
-  const filter_params = `filters[${name}][name][$eq]`;
-  const options = {
-    method: "GET",
-    headers: {
-      "User-Agent": "insomnia/9.1.1",
-      Authorization: `Bearer ${api_key}`,
-    },
-  };
+  
 
-  const url = `${api_url}/works?${filter_params}=${value}`;
+  const [works, setWorks] = useState(works_all_fields.data);
+  useEffect(() => {
+    const data = works_all_fields.data.filter(
+      (w) => w.attributes.category.data.attributes.name == `${value}`
+    );
+    setWorks(data);
+  }, [filter]);
+  // FETCH
+  // let filter_params = "";
+  // filter_params = `&filters[${name}][name][$eq]=${value}`;
+  // const api_key = import.meta.env.VITE_STRAPI_KEY;
+  // const api_url = import.meta.env.VITE_STRAPI_URL;
 
-  fetch(url, options)
-    .then((response) => response.json())
-    .then((response) => console.log(response))
-    .catch((err) => console.error(err));
+  // const options = {
+  //   method: "GET",
+  //   headers: {
+  //     "User-Agent": "insomnia/9.1.1",
+  //     Authorization: `Bearer ${api_key}`,
+  //   },
+  // };
+
+  // const url = `${api_url}/works?populate=*${filter_params}`;
+
+  // useEffect(() => {
+  //   fetch(url, options)
+  //     .then((response) => response.json())
+  //     .then((response) => setWorks(response.data))
+  //     .catch((err) => console.error(err));
+  // }, [filter]);
 
   return (
     <section className="WorkList">
-      <h2>{value}</h2>
-      {/* {works.map((work) => (
-        <p key={work.slug}>
-          <Link to={`/work/${filter}/${work.slug}`}>{work.title}</Link>
-        </p>
-      ))} */}
+      {works &&
+        works.map((work) => (
+          <WorkCard workdata={work.attributes} key={work.id} />
+        ))}
     </section>
   );
 }
