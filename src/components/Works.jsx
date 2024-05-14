@@ -1,13 +1,21 @@
 import { useState } from "react";
-import WorkList from "../components/WorkList";
+import WorkList from "./WorkList";
 import { Button, ButtonGroup } from "react-bootstrap";
 
 export default function Works() {
-  const [showExercices, setShowExercices] = useState(true);
-  const [showCases, setShowCases] = useState(true);
+  const [showExercices, setShowExercices] = useState(false);
+  const [showCases, setShowCases] = useState(false);
   const [showProjects, setShowProjects] = useState(true);
+
+  const displayWorks = (setShow) => {
+    setShowProjects(false);
+    setShowCases(false);
+    setShowExercices(false);
+    setShow(true);
+  };
+
   return (
-    <section className="Works">
+    <section id="works">
       <h1>Travaux et projets</h1>
       <p>
         Vous pourrez trouver ci-dessous la liste de mes projets. J'en ai réalisé
@@ -16,20 +24,20 @@ export default function Works() {
       </p>
       <ButtonGroup>
         <Button
-          className={showProjects ? "active" : ""}
-          onClick={() => setShowProjects((showProjects) => !showProjects)}
+          className={showProjects ? "btn-primary" : "btn-secondary"}
+          onClick={() => displayWorks(setShowProjects)}
         >
           Projets
         </Button>
         <Button
-          className={showCases ? "active" : ""}
-          onClick={() => setShowCases((showCases) => !showCases)}
+          className={showCases ? "btn-primary" : "btn-secondary"}
+          onClick={() => displayWorks(setShowCases)}
         >
           Études de cas
         </Button>
         <Button
-          className={showExercices ? "active" : ""}
-          onClick={() => setShowExercices((showExercices) => !showExercices)}
+          className={showExercices ? "btn-primary" : "btn-secondary"}
+          onClick={() => displayWorks(setShowExercices)}
         >
           Exercices
         </Button>

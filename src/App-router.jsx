@@ -7,8 +7,10 @@ import DarkModeContext from "./DarkModeContext";
 import { useState } from "react";
 import { useEffect } from "react";
 // PAGES
-import Home from "./pages/Home";
+import Profile from "./pages/Profile";
 import Curriculum from "./pages/Curriculum";
+import Contact from "./pages/Contact";
+import Works from "./components/Works";
 import WorkPage from "./pages/WorkPage";
 
 export default function App() {
@@ -27,14 +29,17 @@ export default function App() {
       >
         <Header theme={theme} />
 
-        <Routes>
-          <Route path="/" element={<Home theme={theme} />} />
-          <Route path="/#works" />
-          <Route path="/#contact" />
-          <Route path="/curriculum" element={<Curriculum />} />
+        <main className={theme}>
+          <Routes>
+            <Route path="/" element={<Profile />} />
+            <Route path="/curriculum" element={<Curriculum />} />
+            <Route path="/works" element={<Works />} />
+            <Route path="/projects" element={<WorkPage />} />
+            <Route path="/contact" element={<Contact />} />
 
-          <Route path="/work/:filter/:workSlug" element={<WorkPage />} />
-        </Routes>
+            <Route path="/work/:filter/:workSlug" element={<WorkPage />} />
+          </Routes>
+        </main>
         <Footer theme={theme} />
       </DarkModeContext.Provider>
     </BrowserRouter>

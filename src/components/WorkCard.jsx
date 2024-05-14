@@ -4,14 +4,6 @@ import CardCover from "./CardCover";
 export default function WorkCard(props) {
   const { title, description, date, cover } = props.workdata;
   let image;
-
-  if (cover.data){
-    console.log(cover.data)
-  }
-  
-  
-
-  console.log(props.workdata.cover);
   return (
     <Card>
       <div className="row g-0">
