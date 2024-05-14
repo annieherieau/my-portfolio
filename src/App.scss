@@ -1,0 +1,30 @@
+@import "node_modules/bootswatch/dist/cerulean/variables";
+@import "node_modules/bootstrap/scss/bootstrap";
+@import "node_modules/bootswatch/dist/cerulean/bootswatch";
+
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+main {
+  display: flex;
+  min-height: 85vh;
+  flex-direction: column;
+  padding: 3rem;
+}
+footer {
+  text-align: center;
+  border-top: black 1px solid;
+  margin-top: auto;
+}
+.logo {
+  height: 50px;
+  margin: 0 1em;
+}
+
+.dark-theme {
+  background-color: black;
+  color: white;
+}
