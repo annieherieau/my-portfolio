@@ -1,14 +1,19 @@
 import { useState } from "react";
 import { useEffect } from "react";
-import { Link } from "react-router-dom";
+import WorkCard from "./WorkCard";
 
 export default function WorkList({ filter }) {
-  const { name, value } = filter;
+  let filter_params = "";
+  if (filter) {
+    const { name, value } = filter;
+    filter_params = `&filters[${name}][name][$eq]=${value}`;
+  }
+
   const [works, setWorks] = useState(null);
 
   const api_key = import.meta.env.VITE_STRAPI_KEY;
   const api_url = import.meta.env.VITE_STRAPI_URL;
-  const filter_params = `filters[${name}][name][$eq]`;
+
   const options = {
     method: "GET",
     headers: {
@@ -17,21 +22,22 @@ export default function WorkList({ filter }) {
     },
   };
 
-  const url = `${api_url}/works?${filter_params}=${value}`;
+  const url = `${api_url}/works?populate=*${filter_params}`;
 
-  fetch(url, options)
-    .then((response) => response.json())
-    .then((response) => console.log(response))
-    .catch((err) => console.error(err));
+  useEffect(() => {
+    fetch(url, options)
+      .then((response) => response.json())
+      .then((response) => setWorks(response.data))
+      .catch((err) => console.error(err));
+  }, [filter]);
 
+  console.log(works);
   return (
     <section className="WorkList">
-      <h2>{value}</h2>
-      {/* {works.map((work) => (
-        <p key={work.slug}>
-          <Link to={`/work/${filter}/${work.slug}`}>{work.title}</Link>
-        </p>
-      ))} */}
+      {works &&
+        works.map((work) => (
+          <WorkCard workdata={work.attributes} key={work.id} />
+        ))}
     </section>
   );
 }
