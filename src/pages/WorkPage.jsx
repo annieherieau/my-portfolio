@@ -17,7 +17,7 @@ export default function WorkPage({ theme }) {
   }, [workSlug]);
 
   if (currentWork) {
-    const src = `../assets/works/${currentWork.cover.data.attributes.name}`;
+    const src = `assets/works/${currentWork.cover.data.attributes.name}`;
     return (
       <main id="top" className={theme}>
         <section className="WorkPage">
