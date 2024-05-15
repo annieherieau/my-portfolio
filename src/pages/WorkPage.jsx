@@ -17,19 +17,18 @@ export default function WorkPage({ theme }) {
   }, [workSlug]);
 
   if (currentWork) {
-    const src = `assets/works/${currentWork.cover.data.attributes.name}`;
     return (
       <main id="top" className={theme}>
         <section className="WorkPage">
           <div className="d-flex justify-content-between align-items-center">
           <h1>{currentWork.title}</h1>
-          <IconList data={currentWork.stacks.data}/>
+          <IconList data={currentWork.icons.data}/>
           </div>
         
           <p>{currentWork.description}</p>
           <div className="row gap-0">
             <div className="col-md-4">
-              <img className="cover-img" src={src} />
+              <img className="cover-img" src={currentWork.image} />
             </div>
             <div className="col-md-8">
               <MakdownDisplay content={currentWork.content} />

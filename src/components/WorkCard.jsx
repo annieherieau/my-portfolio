@@ -1,15 +1,16 @@
-import { Button, Card, CardBody, CardFooter, CardText, CardTitle } from "react-bootstrap";
-import CardCover from "./CardCover";
+import { Button, Card, CardBody, CardFooter, CardImg, CardText, CardTitle } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
 export default function WorkCard(props) {
-  const { title, slug, description, cover , github, url} = props.workdata;
-  const sluglink = `/my-portfolio/${slug}`
+  const { title, slug, description, image , github, url} = props.workdata;
+  const sluglink = `/project/${slug}`
   return (
     <Card>
       <div className="row g-0">
         <div className="col-md-4">
-          <CardCover imgData={cover.data} />
+        <div className="CardCover">
+        <CardImg className="w-100" variant="left" src={image} />
+      </div>
 
         </div>
         <div className="col-md-8">

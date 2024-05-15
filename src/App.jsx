@@ -18,7 +18,7 @@ export default function App() {
     setTheme(isDarkMode ? "dark" : "light");
   }, [isDarkMode]);
   return (
-    <BrowserRouter>
+    <BrowserRouter basename='/my-portfolio'>
       <DarkModeContext.Provider
         value={{
           isDarkMode,
@@ -32,17 +32,17 @@ export default function App() {
         <Header theme={theme} />
 
         <Routes>
-          <Route path="/my-portfolio/" element={<Home theme={theme} />} />
-          <Route path="/my-portfolio#top" />
-          <Route path="/my-portfolio#works" />
-          <Route path="/my-portfolio#contact" />
+          <Route path="/" element={<Home theme={theme} />} />
+          <Route path="/#top" />
+          <Route path="/#works" />
+          <Route path="/#contact" />
           <Route
-            path="/my-portfolio/curriculum"
+            path="/curriculum"
             element={<Curriculum theme={theme} />}
           />
 
           <Route
-            path="/my-portfolio/:workSlug"
+            path="/project/:workSlug"
             element={<WorkPage theme={theme} />}
           />
         </Routes>
