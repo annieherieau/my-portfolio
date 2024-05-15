@@ -12,7 +12,7 @@ import Curriculum from "./pages/Curriculum";
 import WorkPage from "./pages/WorkPage";
 
 export default function App() {
-  const [isDarkMode, setIsDarkMode] = useState(false);
+  const [isDarkMode, setIsDarkMode] = useState(JSON.parse(localStorage.getItem("isDarkMode")));
   const [theme, setTheme] = useState(isDarkMode ? "dark" : "light");
   useEffect(() => {
     setTheme(isDarkMode ? "dark" : "light");
@@ -22,7 +22,11 @@ export default function App() {
       <DarkModeContext.Provider
         value={{
           isDarkMode,
-          toggle: () => setIsDarkMode((isDarkMode) => !isDarkMode),
+          toggle: () => {
+            localStorage["isDarkMode"] = !isDarkMode;
+            setIsDarkMode((isDarkMode) => !isDarkMode);
+            
+          },
         }}
       >
         <Header theme={theme} />
@@ -32,9 +36,15 @@ export default function App() {
           <Route path="/my-portfolio#top" />
           <Route path="/my-portfolio#works" />
           <Route path="/my-portfolio#contact" />
-          <Route path="/my-portfolio/curriculum" element={<Curriculum theme={theme}/>} />
+          <Route
+            path="/my-portfolio/curriculum"
+            element={<Curriculum theme={theme} />}
+          />
 
-          <Route path="/my-portfolio/:workSlug" element={<WorkPage theme={theme}/>} />
+          <Route
+            path="/my-portfolio/:workSlug"
+            element={<WorkPage theme={theme} />}
+          />
         </Routes>
         <Footer theme={theme} />
       </DarkModeContext.Provider>
