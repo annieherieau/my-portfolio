@@ -4,7 +4,7 @@ export default function IconList({ data }) {
     <div className="icon-list">
       {data &&
         data.map((item) => (
-          <img className="img-icon" src={item.attributes.url} key={item.id} />
+          <img className="img-icon" src={item.attributes.url} key={item.id} title={item.attributes.name}/>
         ))}
     </div>
   );
